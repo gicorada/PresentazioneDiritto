@@ -6,9 +6,11 @@
 
 		<title>reveal.js</title>
 
+		<link rel="stylesheet" href="style.css">
+
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/blood.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +18,13 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-transition="fade">
+					<p class="r-fit-text titoli">I sistemi economici <br> dell'età contemporanea</p>
+				</section>
+				<section data-transition="fade">
+					Magna dolore exercitation exercitation et.
+				</section>
+				
 			</div>
 		</div>
 
@@ -33,7 +40,14 @@
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+
+				// Display presentation control arrows
+				controls: false,
+
+				// Help the user learn the controls by providing hints, for example by
+				// bouncing the down arrow when they first encounter a vertical slide
+				controlsTutorial: false,
 			});
 		</script>
 		<script src="socket.io/socket.io.js"></script>

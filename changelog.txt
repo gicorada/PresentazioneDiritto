@@ -1,0 +1,12 @@
+20/04/22
+Aggiunto server note da Giacomo
+--
+Presenti Giacomo e Nicolò su Jitsi
+Cambiato il titolo
+Scelta 'fade' come transizione
+Cambiato il colore del titolo aggiungendo a style.css una classe 'titoli'
+
+------------
+
+12/4/22
+Aggiunta base revealJs
